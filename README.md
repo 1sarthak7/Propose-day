@@ -1,5 +1,4 @@
 # Propose-day
-# Propose Day – A Cinematic Romantic Web Experience
 
 ## Overview
 
