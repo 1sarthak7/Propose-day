@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>My Forever</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="bg-gradient"></div>
+    <div class="texture-overlay"></div>
+    
+    <div id="rain-container"></div>
+
+    <main id="stage">
+        
+        <section id="s1" class="slide active">
+            <div class="glass-card">
+                <div class="icon-float">🌹</div>
+                <h1 class="hero-title">For You, My Love</h1>
+                <p class="subtitle">A little moment of magic.</p>
+                <button id="btn-start" class="btn-liquid">
+                    <span class="btn-txt">Open My Heart</span>
+                    <div class="btn-shine"></div>
+                </button>
+            </div>
+        </section>
+
+        <section id="s2" class="slide">
+            <div class="text-wrapper">
+                <p class="fade-in-up">You make the world</p>
+                <p class="fade-in-up delay-1 highlight">so much softer.</p>
+                <p class="fade-in-up delay-2">And my life so much brighter.</p>
+            </div>
+            <button id="btn-next" class="btn-ghost">Continue</button>
+        </section>
+
+        <section id="s3" class="slide">
+            <div class="bloom-container">
+                <div class="css-flower">
+                    <div class="petal p1"></div>
+                    <div class="petal p2"></div>
+                    <div class="petal p3"></div>
+                    <div class="petal p4"></div>
+                    <div class="center"></div>
+                </div>
+            </div>
+            <p class="subtitle">You are my favorite thought.</p>
+            <button id="btn-ask" class="btn-liquid">
+                <span class="btn-txt">I have a question...</span>
+                <div class="btn-shine"></div>
+            </button>
+        </section>
+
+        <section id="s4" class="slide">
+            <h2 class="hero-title big">Will You Be Mine?</h2>
+            <p class="subtitle">Not just for now, but for always.</p>
+            
+            <div class="action-buttons">
+                <button class="btn-liquid pink" onclick="sayYes()">
+                    <span class="btn-txt">YES, I Will! 💍</span>
+                </button>
+                <button class="btn-liquid white" onclick="sayYes()">
+                    <span class="btn-txt">Forever Yes 🌸</span>
+                </button>
+            </div>
+        </section>
+
+        <section id="s5" class="slide">
+            <h1 class="hero-title">I Love You.</h1>
+            <p class="subtitle">Thank you for choosing me.</p>
+        </section>
+
+    </main>
+
+    <audio id="bg-music" loop>
+        <source src="assets/music.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+
+    <div class="watermark">
+    Made with love by Sarthak Bhopale
+</div>
+
+</body>
+</html>
